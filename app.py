@@ -8,11 +8,7 @@ st.title("How Danceable Is This Song?")
 st.caption("Upload a CSV file, look at the data, draw a chart, and make a prediction.")
 
 # The one sentence the assignment asks for.
-st.write(
-    "This model guesses how danceable a song is from how happy and how acoustic it sounds, "
-    "to help pick songs for a dance class or party playlist; when it is wrong, "
-    "you end up with a song that is hard to dance to, so listen before you choose."
-)
+st.write("This model helps build party playlists by predicting danceability, and if it's wrong, a song could clear the dance floor instead of filling it.")
 
 uploaded_file = st.file_uploader("Upload a CSV file", type="csv")
 
